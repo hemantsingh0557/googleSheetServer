@@ -4,7 +4,7 @@ type CORS = (req: Request, res: Response, next: NextFunction) => void;
 
 let allowedOrigins = [
   "http://localhost:3000", // Local frontend
-  "https://your-frontend.vercel.app", // Add this when you deploy frontend
+  "https://google-sheet-frontend.vercel.app/", // Add this when you deploy frontend
 ];
 
 const cors: CORS = (req, res, next) => {
